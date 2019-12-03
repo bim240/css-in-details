@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li {
+    display:inline;
+    font-weight:bold;
+    padding:10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#fff;
+}
+footer nav a {
+    text-decoration: none;
+    
+}
+.center {
+    text-align:center;
+    
+}
+.header {
+    background-color:#664995;
+    padding:10px;
+    color:#fff;
+    box-shadow: 0 2px 5px #A477E9;
+}
+.footer {
+    background-color:#8AE38C;
+    padding:10px;
+    line-height:2;
+    box-shadow: 0 5px 5px #8AE38C;
+}
+h2 {
+    font-size:15px;
+    padding:25px;
+    text-align:center;
+    font-weight:bold
+}
+.bg1 {
+    background-color:#838383;
+    padding:15px;
+    box-shadow: 0 5px 5px #AFAFAF;
+}
+#goto {
+    background-color:#C9C9C9;
+    padding:15px;
+    margin-bottom:20px;
+    box-shadow: 0 5px 5px #DEDEDE;
+}
+p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+.main {
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+i {
+    font-size: 30px;
+    
+}
+
+.fb {
+    color: #1E4E9A;
+}
+.insta {
+    color:rgb(212, 110, 110);
+}
+.tweet {
+    color:#07A7E7
+}
+.git {
+    color:black;
+}
